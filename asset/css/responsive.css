@@ -1,0 +1,55 @@
+@media all and (max-width: 480px){
+    nav{
+        flex-direction: column;
+        position: relative;
+    }
+    .menu {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 15px;
+    }
+    nav ul li {
+        padding: 25px;
+        background-color: black;
+        display: block;
+    }
+    nav ul li a{
+        background-color: black;
+        color: white;
+        
+    }
+    nav ul {
+        width: 100%;
+        padding-top: 80px;
+        text-align: center;
+        display: none;
+    }
+    .logo{
+        width: 100%;
+    }
+    .logo a {
+        height: 30px;
+        margin-left: 27px;
+        margin-top: 15px;
+        position: absolute;
+    }
+    .active {
+        display: block;
+    }
+    .content-right img{
+        display: none;
+    }
+    .content-left {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    .tombol {
+        text-align: center;
+    }
+    .top-head {
+        height: 100vh;
+        border: none;
+    }
+}
